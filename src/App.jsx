@@ -1,7 +1,7 @@
 import React from "react"
 import {Routes, Route} from 'react-router-dom'
 import { Navbar } from "./Component/Navbar"
-import { Footer } from "./Component/Footer"
+import { Foot } from "./Component/Footer"
 import { Home } from "./Pages/Home/Home"
 import { ExpertNetwork } from "./Pages/ExpertNetwork/ExpertNetwork"
 import { IntegralLearning } from "./Pages//IntegralLearning/IntegralLearning"
@@ -31,7 +31,7 @@ function App() {
      <Route path="/contact" element={<Contact />} />
      </Routes>
    
-     <Footer />
+     <Foot />
     </>
   )
 }
