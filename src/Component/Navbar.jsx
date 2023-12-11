@@ -28,15 +28,13 @@ export const Navbar = () => {
           <div className={`lg:block  lg:ml-4 lg:mt-0 md:mt-14 md:ml-96 md:w-fit   ${isMenuOpen ? 'lg:hidden '  : 'hidden '}`}>
             <ul className='lg:flex lg:flex-row md:flex md:flex-col items-center' >
              
-              <NavLink to="/BuildableApproach"><li className='lg:py-0 md:py-3 md:mr-8 md:text-md md:text-start md:w-full py-2 text-center text-white font-medim  hover:text-textcolor cursor-pointer '>
+              <NavLink to="/BuildableApproach"><li className=' lg:py-0 md:py-3 md:mr-8 md:text-md md:text-start md:w-full py-2 text-center text-white font-medim  hover:text-textcolor cursor-pointer '>
                 Buildable Approach
               </li></NavLink>
-              <NavLink to="/ExpertNetwork"><li className='lg:py-0 md:py-3 md:text-md md:text-start md:w-full py-2 text-center text-white font-medim  hover:text-textcolor cursor-pointer '>
+              <NavLink to="/ExpertNetwork"><li className='lg:py-0 md:py-3 md:mr-8 md:text-md md:text-start md:w-full py-2 text-center text-white font-medim  hover:text-textcolor cursor-pointer '>
               Expert Network
               </li></NavLink>
               
-              <NavLink to="/ExpertNetwork"><li className='lg:py-0 md:py-3 md:mr-8 md:text-md md:text-start md:w-full py-2 text-center text-white font-medim  hover:text-textcolor cursor-pointer '></li>
-              </NavLink>
 
               <NavLink to="/VideoLessonMaker"><li className='lg:py-0 md:py-3 md:mr-8 md:text-md md:text-start md:w-full py-2 text-center text-white font-medim  hover:text-textcolor cursor-pointer '>
               Video Lesson Maker
